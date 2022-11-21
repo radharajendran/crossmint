@@ -1,0 +1,8 @@
+{
+    "dbConnection": "mongodb+srv://radha-db:URJYAVsKszstm7yn@cluster0.nv7wxl9.mongodb.net/?retryWrites=true&w=majority",
+    "SECRET_KEY": "jAmMmOqAuThKey@!$",
+    "CROSSMINT_POLYANETS_URL": "https://challenge.crossmint.io/api/polyanets",
+    "CROSSMINT_SOLOONS_URL":"https://challenge.crossmint.io/api/soloons",
+    "CROSSMINT_COMETHS_URL": "https://challenge.crossmint.io/api/comeths",
+    "CANDIDATE_MAP" : "https://challenge.crossmint.io/api/map"
+}
