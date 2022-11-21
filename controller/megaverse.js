@@ -144,7 +144,7 @@ const megaverseController = {
         try {
             for (let p = 0; p < mapData.length; p++) {
 
-                let row = megaverseData[p];
+                let row = mapData[p];
 
                 if (row.length) {
 
@@ -157,7 +157,7 @@ const megaverseController = {
                         if (typeof column == 'object' && column) {
 
                             switch (column.type) {
-                                case '0':
+                                case 0:
                                     {
                                         await axios.delete(
                                             {
@@ -169,7 +169,7 @@ const megaverseController = {
                                             })
                                     }
                                     break;
-                                case '1':
+                                case 1:
                                     {
                                         await axios.delete(
                                             {
@@ -181,7 +181,7 @@ const megaverseController = {
                                             })
                                     }
                                     break;
-                                case '2':
+                                case 2:
                                     {
                                         await axios.delete(
                                             {
@@ -201,6 +201,8 @@ const megaverseController = {
 
                 }
             }
+
+            http.send(req, res, { status: 'success', message: 'Megaverse Data Successfully cleared' });
 
         }
         catch (e) {
