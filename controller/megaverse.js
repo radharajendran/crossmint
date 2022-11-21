@@ -164,7 +164,8 @@ const megaverseController = {
                                                 url: config.CROSSMINT_POLYANETS_URL,
                                                 data: {
                                                     row: p,
-                                                    column: c
+                                                    column: c,
+                                                    candidateId
                                                 }
                                             })
                                     }
@@ -176,7 +177,8 @@ const megaverseController = {
                                                 url: config.CROSSMINT_SOLOONS_URL,
                                                 data: {
                                                     row: p,
-                                                    column: c
+                                                    column: c,
+                                                    candidateId
                                                 }
                                             })
                                     }
@@ -188,7 +190,8 @@ const megaverseController = {
                                                 url: config.CROSSMINT_COMETHS_URL,
                                                 data: {
                                                     row: p,
-                                                    column: c
+                                                    column: c,
+                                                    candidateId
                                                 }
                                             })
                                     }
